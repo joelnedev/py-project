@@ -1,0 +1,597 @@
+{
+	"guitarAttributes": {
+		"pickups": [
+			"SSS",
+			"SS",
+			"HHH",
+			"HH"
+		],
+		"pickupType": [
+			"passive",
+			"active",
+			"split-coil"
+		],
+		"bridge": [
+			"tremolo",
+			"hardtail",
+			"ashtray",
+			"panorama",
+			"strat",
+			"tele",
+			"tune-o-matic",
+			"hipshot",
+			"bigsby"
+		],
+		"hardwareFeatures": [
+			"modeling",
+			"multi-voice"
+		],
+		"switch": [
+			"3-way",
+			"5-way",
+			"blade",
+			"toggle"
+		],
+		"hardware": [
+			"1V",
+			"2V",
+			"1T",
+			"2T"
+		]
+	},
+	"bassAttributes": {
+		"pickups": [
+			"SS",
+			"S",
+			"HH",
+			"H"
+		],
+		"pickupType": [
+			"passive",
+			"active",
+			"split-coil"
+		],
+		"hardware": [
+			"1V",
+			"2V",
+			"1T"
+		]
+	},
+	"guitars": {
+		"Strat": {
+			"brand": "Fender",
+			"model": "Stratocaster",
+			"year": 1954,
+			"price": 1499.99,
+			"stats": {
+				"bridge": ["tremolo", "strat"],
+				"pickups": "SSS",
+				"switch": ["5-way", "blade"],
+				"hardware": [
+					["1V", "2T"],
+					"passive",
+					"split-coil"
+				]
+			},
+			"type": "guitar"
+		},
+		"LP": {
+			"brand": "Gibson",
+			"model": "Les Paul",
+			"year": 1959,
+			"price": 5499.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"SG": {
+			"brand": "Gibson",
+			"model": "SG",
+			"year": 1961,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Tele": {
+			"brand": "Fender",
+			"model": "Telecaster",
+			"year": 1952,
+			"price": 3499.99,
+			"stats": {
+				"bridge": ["ashtray", "tele"],
+				"pickups": "SS",
+				"switch": ["3-way", "blade"],
+				"hardware": [
+					["1V"], ["1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Flying V": {
+			"brand": "Gibson",
+			"model": "Flying V",
+			"year": 1958,
+			"price": 2999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"335": {
+			"brand": "Gibson",
+			"model": "ES-335",
+			"year": 1958,
+			"price": 3499.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Jag": {
+			"brand": "Fender",
+			"model": "Jaguar",
+			"year": 1962,
+			"price": 2499.99,
+			"stats": {
+				"bridge": ["tremolo", "panorama"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Explorer": {
+			"brand": "Gibson",
+			"model": "Explorer",
+			"year": 1958,
+			"price": 2999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "guitar"
+		},
+		"Jazzmaster": {
+			"brand": "Fender",
+			"model": "Jazzmaster",
+			"year": 1958,
+			"price": 2499.99,
+			"stats": {
+				"bridge": ["tremolo", "panorama"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Firebird": {
+			"brand": "Gibson",
+			"model": "Firebird",
+			"year": 1963,
+			"price": 2999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "2T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"RR": {
+			"brand": "Jackson",
+			"model": "Rhoads",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "guitar"
+		},
+		"Warlock": {
+			"brand": "B.C. Rich",
+			"model": "Warlock",
+			"year": 1981,
+			"price": 1499.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Mockingbird": {
+			"brand": "B.C. Rich",
+			"model": "Mockingbird",
+			"year": 1976,
+			"price": 1499.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Kelly": {
+			"brand": "Jackson",
+			"model": "Kelly",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["tremolo", "floyd-rose"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "guitar"
+		},
+		"King V": {
+			"brand": "Jackson",
+			"model": "King V",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "guitar"
+		},
+		"Viper": {
+			"brand": "ESP",
+			"model": "Viper",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "blade"],
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active",
+					"split-coil"
+				]
+			},
+			"type": "guitar"
+		},
+		"Horizon": {
+			"brand": "ESP",
+			"model": "Horizon",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "hipshot"],
+				"pickups": "HHH",
+				"switch": ["3-way", "blade"],
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"EX": {
+			"brand": "ESP",
+			"model": "EX",
+			"year": 1983,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HHH",
+				"switch": ["3-way", "blade"],
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"StingRay": {
+			"brand": "Ernie Ball Music Man",
+			"model": "StingRay RS",
+			"year": 1976,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["tremolo", "music-man"],
+				"pickups": "H",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Electromatic": {
+			"brand": "Gretsch",
+			"model": "Electromatic Jet",
+			"year": 1955,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["tremolo", "bigsby"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "guitar"
+		},
+		"Iceman": {
+			"brand": "Ibanez",
+			"model": "Iceman",
+			"year": 1975,
+			"price": 1999.99,
+			"stats": {
+				"bridge": ["hardtail", "hipshot"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "guitar"
+		},
+		"Shuriken": {
+			"brand": "Line 6",
+			"model": "Shuriken",
+			"year": 2010,
+			"price": 1499.99,
+			"stats": {
+				"bridge": ["hardtail", "hipshot"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["1V", "3T"],
+					"active",
+					"modeling"
+				]
+			},
+			"type": "guitar"
+		},
+		"Prophecy": {
+			"brand": "Epiphone",
+			"model": "Prophecy",
+			"year": 2008,
+			"price": 899.99,
+			"stats": {
+				"bridge": ["hardtail", "tune-o-matic"],
+				"pickups": "HH",
+				"switch": ["3-way", "toggle"],
+				"hardware": [
+					["1V", "1T"],
+					"active",
+					"multi-voice"
+				]
+			},
+			"type": "guitar"
+		}
+	},
+	"basses": {
+		"Jazz Bass": {
+			"brand": "Fender",
+			"model": "Jazz Bass",
+			"year": 1960,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "SS",
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Precision Bass": {
+			"brand": "Fender",
+			"model": "Precision Bass",
+			"year": 1951,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "H",
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Thunderbird": {
+			"brand": "Gibson",
+			"model": "Thunderbird",
+			"year": 1963,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Rickenbacker 4003": {
+			"brand": "Rickenbacker",
+			"model": "4003",
+			"year": 1980,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Kelly Bird": {
+			"brand": "Jackson",
+			"model": "Kelly Bird",
+			"year": 1980,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"StingRay": {
+			"brand": "Ernie Ball Music Man",
+			"model": "StingRay",
+			"year": 1976,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "H",
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Electromatic": {
+			"brand": "Gretsch",
+			"model": "Electromatic",
+			"year": 1955,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["2V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Iceman": {
+			"brand": "Ibanez",
+			"model": "Iceman",
+			"year": 1975,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["2V", "1T"],
+					"passive",
+					"active"
+				]
+			},
+			"type": "bass"
+		},
+		"Grabber": {
+			"brand": "Gibson",
+			"model": "Grabber",
+			"year": 1980,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "S",
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"Razorback": {
+			"brand": "Dean",
+			"model": "Razorback",
+			"year": 1980,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		},
+		"T-40": {
+			"brand": "Peavey",
+			"model": "T-40",
+			"year": 1980,
+			"price": 1999.99,
+			"stats": {
+				"pickups": "HH",
+				"hardware": [
+					["1V", "1T"],
+					"passive"
+				]
+			},
+			"type": "bass"
+		}
+	}
+}
