@@ -2,7 +2,7 @@ import math
 import json
 
 # Load instrument data from JSON file
-with open("C:\\Dev\\python\\final_project\\instruments.json", "r") as in_file:
+with open("./instruments.json", "r") as in_file:
 	loaded = json.load(in_file)
 	guitar_attributes = loaded["guitarAttributes"]
 	bass_attributes = loaded["bassAttributes"]
