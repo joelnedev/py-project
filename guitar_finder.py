@@ -101,13 +101,12 @@ def find_by_model(g_type):
 	# Search for the specified model in the guitars or basses list
 	for guitar in (guitars if (g_type == "guitar") else basses):
 		gtr = (guitars if (g_type == "guitar") else basses)[guitar]
-		if gtr["model"].lower() == model.lower():
-			found.append(gtr)
-			break
-		if guitar.lower() == model.lower():
-			found.append(gtr)
-			break
-		if f"{gtr['brand'].lower()} {gtr['model'].lower()}" == model.lower():
+		model_match = gtr["model"].lower() == model.lower()
+		brand_match = gtr["brand"].lower() == model.lower()
+		nick_match = guitar.lower() == model.lower()
+		bm_match = f"{gtr['brand'].lower()} {gtr['model'].lower()}" == model.lower()
+		bn_match = f"{gtr['brand'].lower()} {guitar.lower()}" == model.lower()
+		if model_match or brand_match or nick_match or bm_match or bn_match:
 			found.append(gtr)
 			break
 
